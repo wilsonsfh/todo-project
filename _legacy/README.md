@@ -1,0 +1,25 @@
+# Overwhelm-Free To-Do List
+
+A minimal, containerized to-do app that only shows your top tasks, with AI suggestions and a weekly done list.
+
+## Quick Start
+
+1. Add your OpenAI API key to `backend/.env`.
+2. Run:
+   ```
+   docker-compose up --build
+   ```
+3. Visit [http://localhost:3000](http://localhost:3000).
+
+## Stack
+
+- Frontend: React (Vite)
+- Backend: Node.js (Express)
+- Database: PostgreSQL
+- Containerization: Docker, Docker Compose
+
+## Features
+
+- Only shows top 3 tasks at a time
+- Weekly done list
+- AI-powered task suggestions
